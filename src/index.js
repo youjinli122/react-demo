@@ -1,17 +1,16 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
-
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
-);
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+import React from "react";
+import ReactDom from "react-dom";
+// import Counter from "./setStateDemo";
+// import Calculate from "./createRefDemo";
+// import LifeCycle from "./lifeCycle";
+// import Closure from "./closure";
+// import Provide from "./designPattern/provider";
+// import RenderProps from "./designPattern/renderProps";
+// import DomDiff from "./dom-diff";
+// import { FunctionComponent, ClassComponent } from "./createComponentDemo";
+import ReducerAndContext from "./designPattern/reducerAndContext";
+// import Hook from "./designPattern/hooks";
+// import Hoc from "./designPattern/hoc";
+// import UseEffect from "./hooks/useEffect";
+// import Test from "./test/A";
+ReactDom.render(<ReducerAndContext />, document.getElementById("root"));
