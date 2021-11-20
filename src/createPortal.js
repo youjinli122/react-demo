@@ -13,7 +13,7 @@ class Dialog extends React.Component {
   render() {
     // 把一个jsx插入到指定的dom节点
     ReactDOM.createPortal(<div>{this.props.children}</div>, this.node);
-    return <></>;
+    return <div></div>;
   }
 }
 
