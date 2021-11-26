@@ -1,13 +1,15 @@
 import React, { useState } from "react";
-import C from "./C";
+import D from "./D";
 
-const B = () => {
-  console.log("bbbbb");
+const B = (props) => {
+  console.log("bbbbb-render");
   const [number, setNumber] = useState(0);
   return (
     <>
       <button onClick={() => setNumber(number + 1)}>{number}</button>
-      <C />
+      <div>我是b</div>
+      {props.children}
+      <D />
     </>
   );
 };
